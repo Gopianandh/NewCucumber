@@ -24,7 +24,7 @@ public class Stepdefinition {
 
 	@When("User should enter the{string} and {string}")
 	public void user_should_enter_the_and(String string, String string2) {
-	WebElement findElement = driver.findElement(By.id("username"));
+	WebElement findElement = driver.findElement(By.id("userna"));
 	findElement.sendKeys(string);
 	
 	WebElement find = driver.findElement(By.id("password"));
